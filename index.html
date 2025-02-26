@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="PT-BR">
     <head>
@@ -5,31 +6,37 @@
         <link rel="stylesheet" type="text/css" href="">
         <meta charset="utf-8">
         <script src="jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+             alert("funcionou");
+            });
+             </script>
         <style>
             .site{
                 width:1900px;
                 height:930px;
-                border:2px solid #7CFC00;
                 padding:0px;
             }
             .header{
                 width:1900px;
                 height:150px;
-                border:2px solid #7CFC00;
                 padding:0px;
                 background-image:url("https://img.freepik.com/fotos-premium/imagem-de-fundo-de-rosas-cor-de-rosa_39131-155.jpg");
             }
             .main{
                 width:1900px;
                 height:630px;
-                border:2px solid #7CFC00;
                 padding:0px
+            }
+            .footer{
+                width:1900px;
+                height:140px;
+                padding:0px;
                 background-image:url("https://img.freepik.com/fotos-premium/imagem-de-fundo-de-rosas-cor-de-rosa_39131-155.jpg");
             }
             .esquerda{
                 width:190px;
                 height:630px;
-                border:2px solid #7CFC00;
                 display:inline-block;
                 float:left;
                 background-image:url("https://img.freepik.com/fotos-premium/imagem-de-fundo-de-rosas-cor-de-rosa_39131-155.jpg");
@@ -37,7 +44,6 @@
             .centro{
                 width:1px;
                 height:630px;
-                border:2px solid #7CFC00;
                 display:inline-block;
                 float:left;
                 background-image:url("https://img.freepik.com/fotos-premium/imagem-de-fundo-de-rosas-cor-de-rosa_39131-155.jpg");
@@ -45,13 +51,13 @@
             .direita{
                 width:190px;
                 height:630px;
-                border:2px solid #7CFC00;
                 display:inline-block;
                 float:right;
                 background-image:url("https://img.freepik.com/fotos-premium/imagem-de-fundo-de-rosas-cor-de-rosa_39131-155.jpg");
             }
         
         </style>
+        
     </head>
     <body>
         <div class="site">
@@ -65,14 +71,29 @@
                 <div class="centro">
                 <fieldset>
                     <legend>CALCULADORA</legend>
-                       <input type="number" id="campo">
-                </br></br>
-                       <button id="btn_um">1</button>
-                       <button id="btn_dois">2</button>
-                       <button id="btn_tres">3</button>
-                       <button id="btn_adicao">+</button>
-                       <button id="btn_porcentagem">%</button>
-            </br></br>
+                    <input type="number" id="campo">
+                    </br></br>
+                    <button id="btn_um">1</button>
+                    <button id="btn_dois">2</button>
+                    <button id="btn_tres">3</button>
+                    <button id="btn_adicao">+</button>
+                    <button id="btn_porcentagem">%</button>
+                    </br></br>
+                    </br></br>
+                    <button id="btn_sete">7</button>
+                    <button id="btn_oito">8</button>
+                    <button id="btn_nove">9</button>
+                    <button id="btn_divisao">/</button>
+                    <button id="btn_pa">(</button>
+                    </br></br>
+                    <button id="btn_ponto">.</button>
+                    <button id="btn_zero">0</button>
+                    <button id="btn_virgula">,</button>
+                    <button id="btn_multiplicacao">x</button>
+                    <button id="btn_pf">)</button>
+                    </br></br>
+                    <button id="btn_limpar">C</button>
+                    <button id="btn_igual">=</button>        
 
 
                   </fieldset>
@@ -87,3 +108,4 @@
         </div>
     </body>
 </html>
+  
